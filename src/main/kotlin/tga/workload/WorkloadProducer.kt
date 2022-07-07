@@ -3,10 +3,9 @@ package tga.workload
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.plugins.logging.*
-import io.ktor.client.request.*
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.runBlocking
+import kotlinx.`coroutines`.runBlocking
 import org.slf4j.LoggerFactory
 
 abstract class WorkloadProducer(
